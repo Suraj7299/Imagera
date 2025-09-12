@@ -7,11 +7,11 @@ import { shadesOfPurple } from "@clerk/themes";
 import { ThemeProvider } from "@/components/theme-provider";
 import { FloatingShapes } from "@/components/floating-shapes";
 import { Toaster } from "sonner";
-        
+
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Imagera",
+  title: "Pixxel",
   description: "Professional image editing powered by AI",
 };
 
@@ -49,3 +49,5 @@ export default function RootLayout({ children }) {
     </html>
   );
 }
+
+
